@@ -1,27 +1,44 @@
-# AngularAssessment
+# Angular Assessment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
+This assessment was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
+
+## Assessment Requirements
+
+### The requirements are to use 
+- routing 
+- angular forms with validation.
+
+### Home Component
+- Create a button or router link on the app home page that allows the user to navigate to a register component.
+ 
+### Register Component
+- On the register component add an angular form.
+- The form should contain an input field.
+- On form submission the code should run email validation.
+- Use a div in the template to display valid/invalid messages.
+- Add a button that navigates the user back to the app home page.
+ 
+### Nice to have
+- Unit tests
+- Themes using scss
+
+## Implemented Assessment contains
+- Implemeted routing
+- In Register Component, implemented Angular form with validation
+- On form submission email validation is added.
+- Valid/InValid message are shown in div with different color codes based on the theme selected
+- Added 'Home' button to navigate back to Home Component
+- Two themes are implemented using scss.
+- User can toggle between two themes i.e 'light' and 'dark' by clicking 'T' button on header
+- Implemented the Unit Testing
+
+## Live url
+[Assessment](https://angular-ivy-e2xhu9.stackblitz.io/)
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
