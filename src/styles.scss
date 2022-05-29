@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import '/src/assets/themes/theme.scss';
+@import './assets/themes/theme.scss';
 
 * {
   box-sizing: border-box;
@@ -16,7 +16,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
   width: 100%;
-  
+
   .page {
     height: calc(100% - 50px);
     width: 100%;
