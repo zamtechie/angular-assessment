@@ -1,0 +1,29 @@
+:host {
+  .header {
+    height: 50px;
+
+    &-left {
+      float: left;
+
+      .title {
+        padding: 15px 20px;
+      }
+    }
+
+    &-right {
+      float: right;
+    }
+
+    .btn {
+      border: none;
+      border-radius: 20px;
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 6px 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+}

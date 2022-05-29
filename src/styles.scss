@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+@import '/src/assets/themes/theme.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+  
+  .page {
+    height: calc(100% - 50px);
+    width: 100%;
+
+    .container {
+      padding: 20px;
+      height: 100%;
+
+      .title {
+        padding: 20px 0px;
+      }
+
+      .form {
+        padding: 10px;
+        border-radius: 5px;
+
+        .msg-container {
+          padding-top: 2px;
+        }
+
+        .btn {
+          border: none;
+          border-radius: 5px;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          font-size: 14px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

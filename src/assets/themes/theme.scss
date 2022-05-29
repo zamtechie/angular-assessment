@@ -1,0 +1,66 @@
+@import '/src/assets/themes/light.scss';
+@import '/src/assets/themes/dark.scss';
+
+// get value based on key
+@function theme-get-value($theme, $key) {
+  @if map-has-key($theme, $key) {
+    @return map-get($theme, $key);
+  }
+  @else {
+    @error "ERROR";
+  }
+}
+
+// set the them light/dark
+@mixin set-theme($theme) {
+
+  .header {
+    background: theme-get-value($theme, header-color);
+    color:  theme-get-value($theme, header-title-color);
+    overflow: hidden;
+    
+    .theme-btn {
+      background-color: theme-get-value($theme, header-btn-color);
+      color: theme-get-value($theme, header-btn-text-color);
+    }
+  }
+
+  .page {
+    background-color: theme-get-value($theme, container-color);
+    
+    .container {
+
+      .title {
+        color: theme-get-value($theme, page-title-color);
+      }
+
+      .form {
+        background-color: theme-get-value($theme, page-color);
+       
+        .msg-container {
+
+          .valid-msg {
+            color: theme-get-value($theme, valid-err-msg-color);
+          }
+
+          .invalid-msg {
+            color: theme-get-value($theme, invalid-err-msg-color);
+          }
+        }
+
+        .btn {
+          background-color: theme-get-value($theme, button-color);
+          color: theme-get-value($theme, button-text-color);
+        }
+      }
+    }
+  }
+}
+
+.light {
+  @include set-theme($light-theme-value-map);
+}
+
+.dark {
+  @include set-theme($dark-theme-value-map);
+}

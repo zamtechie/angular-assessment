@@ -1,0 +1,19 @@
+<div class="page">
+  <div class="container">
+    <h3 class="title">Registration Component</h3>
+    
+    <form class="form" [formGroup]="emailForm" (ngSubmit)="emailFormSubmit()">
+
+      <input type="email" id="emailId" class="email" placeholder="Enter email id" formControlName="emailId" (keydown)="resetMsg()">
+      
+      <div class="msg-container">
+        <span *ngIf="showMsg" [ngClass]="isEmailValid ? 'valid-msg' : 'invalid-msg'">{{message}}</span>
+      </div>
+
+      <div>
+        <button class="btn">Submit</button>
+        <button class="btn" (click)="homeBtnClick()">Home</button>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+@use '/src/assets/themes/colors';
+$dark-theme-value-map:(
+    name: "dark",
+    header-color: colors.$black,
+    header-title-color: colors.$white,
+    header-btn-color: colors.$light-black,
+    header-btn-text-color: colors.$white,
+    page-color: colors.$light-black,
+    page-title-color: colors.$white,
+    container-color: colors.$very-light-black,
+    button-color: colors.$black,
+    button-text-color: colors.$white,
+    invalid-err-msg-color: colors.$coral,
+    valid-err-msg-color: colors.$lawngreen,    
+)

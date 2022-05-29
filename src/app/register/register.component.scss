@@ -1,0 +1,32 @@
+:host {
+  .page {
+    .container {
+      .form {
+        .email {
+          min-width: 30%;
+          padding: 12px 20px;
+          margin: 0px 0px;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        .msg-container {
+          height: 25px;
+
+          .valid-msg {
+            font-size: 13px;
+            padding-left: 5px;
+            font-style: italic;
+          }
+
+          .invalid-msg {
+            font-size: 12px;
+            padding-left: 5px;
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+}
