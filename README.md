@@ -27,7 +27,7 @@ This assessment was generated with [Angular CLI](https://github.com/angular/angu
 - In Home Component, added 'Register' button to navigate to Register Component
 - In Register Component, implemented Angular form with validation
 - On form submission email validation is added.
-- Valid/InValid message are shown in div with different color codes based on the theme selected
+- Valid/InValid messages are shown in div with different color codes based on the theme selected
 - Added 'Home' button to navigate back to Home Component
 - Two themes are implemented using scss.
 - User can toggle between two themes i.e 'light' and 'dark' by clicking 'T' button on header
