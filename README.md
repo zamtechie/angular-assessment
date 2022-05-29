@@ -35,7 +35,8 @@ This assessment was generated with [Angular CLI](https://github.com/angular/angu
 - Implemented the Unit Testing
 
 ## Live url
-[Assessment](https://angular-ivy-e2xhu9.stackblitz.io/)
+[Editor Link](https://stackblitz.com/edit/angular-ivy-e2xhu9)
+[Assessment URL](https://angular-ivy-e2xhu9.stackblitz.io/)
 
 ## Development server
 
