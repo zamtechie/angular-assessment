@@ -31,6 +31,7 @@ This assessment was generated with [Angular CLI](https://github.com/angular/angu
 - Added 'Home' button to navigate back to Home Component
 - Two themes are implemented using scss.
 - User can toggle between two themes i.e 'light' and 'dark' by clicking 'T' button on header
+- Selected theme value will be store in localstorage so that if user revisit the app then previously selected theme will be loaded
 - Implemented the Unit Testing
 
 ## Live url
