@@ -23,7 +23,7 @@ This assessment was generated with [Angular CLI](https://github.com/angular/angu
 - Themes using scss
 
 ## Implemented Assessment contains
-- Implemeted routing
+- Implemented routing
 - In Home Component, added 'Register' button to navigate to Register Component
 - In Register Component, implemented Angular form with validation
 - On form submission email validation is added.
